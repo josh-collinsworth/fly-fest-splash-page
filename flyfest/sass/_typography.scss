@@ -1,0 +1,109 @@
+@import url(//cloud.typography.com/7504314/6941952/css/fonts.css);
+
+body {
+    font-family: "Museo Sans Rounded";
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, button {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    opacity: 1;
+}
+
+h1 {
+    line-height: .9;
+}
+
+h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: var(--blue);
+    font-weight: 600;
+}
+
+h3 {
+    font-family: inherit;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--gray-dark);
+    margin-bottom: 1em;
+}
+
+a {
+    color: inherit;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+small {
+    font-size: .7em;
+}
+
+.centered {
+    text-align: center;
+    margin: auto;
+}
+
+.subhead {
+    font-family: "Archer SSM", "Archer SSm A","Archer SSm B",Georgia,serif;
+    color: var(--blue-dark);
+    font-size: 1.3rem;
+    margin: 1em 0;
+    font-style: italic;
+    -webkit-font-smoothing: auto;
+}
+
+.details {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#welcome h1 {
+    font-size: 8rem;
+    margin: 0 0 .2em;
+    font-weight: 600;
+}
+
+.details {
+    font-weight: 600;
+}
+
+a.cta {
+    font-size: 1.3rem;
+    padding: 1rem 2em .875rem;
+    transition: all .15s ease-in-out;
+    border-radius: 10em;
+    width: auto;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 1em auto;
+    &.fly-green:hover {
+        background-color: var(--green-dark50);
+    }
+}
+
+a.cta.cta-secondary {
+    font-size: 1rem;
+    padding: .6em 2em;
+    &.fly-blue:hover {
+        background-color: var(--blue-dark50)
+    }
+}
+
+.reversed, .reversed p  {
+    color: var(--white)!important;
+}

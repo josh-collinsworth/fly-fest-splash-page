@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fly Fest</title>
+    <link rel="stylesheet" href="flyfest/dist/style-min.css">
+</head>
+<body>
+    <header class="fly-blue">
+        <img id="logo" src="https://getflywheel.com/wp-content/themes/flywheel15/images/logo.svg" alt="Flywheel logo">
+        <div id="hamburger-container">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle">Menu
+                <div aria-hidden="true">
+                    <span class="hamburger-ingredient" aria-hidden="true"></span>
+                    <span class="hamburger-ingredient" aria-hidden="true"></span>
+                    <span class="hamburger-ingredient" aria-hidden="true"></span>
+                </div>
+            </label>
+            <nav id="slideout-menu">
+                <ul>
+                    <li>
+                        <a href="#">More</a>
+                    </li>
+                    <li>
+                        <a href="#">Coming</a>
+                    </li>
+                    <li>
+                        <a href="#">Very</a>
+                    </li>
+                    <li>
+                        <a href="#">Soon</a>
+                    </li>   
+                    <li>
+                        <a href="#">(Stay tuned!)</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="welcome" class="hero full-height fly-blue info">
+
+            <h1 class="centered">Fly Fest!</h1>
+            <p class="subhead">Learning together to be product driven</p>
+            <p class="details">July 10&ndash;12, 2018&ensp;|&ensp;Omaha, NE&ensp;|&ensp; <a href="https://livingroomomaha.com/"  target="_blank">The Living Room</a></p>
+
+            <div class="container">
+                <hr class="break stretch-in">
+                <p>Get ready for the first ever Fly Fest: a conference-style retreat where you can choose your own adventure! This means learning
+                and experiencing together through breakouts, keynote speakers, and super rad evening socials.</p>
+
+            </div>
+
+        </section>
+        <script>
+            //NOTE: removed from final version.
+            // const welcomeElements = document.querySelectorAll('#welcome > *, #welcome .container > *');
+            // let delayIncrement = 120;
+            // let delay = delayIncrement;
+
+            // welcomeElements.forEach((element) => {
+            //     let oldStyle = element.style.display;
+            //     element.style.display = 'none';
+            //     element.classList.add('disappear');
+            //     element.classList.add('transitioner');
+            //     element.style.display = oldStyle;
+            //     delay += delayIncrement;
+            //     setTimeout(() => {
+            //         setTimeout(() => {
+            //             element.classList.remove('disappear');
+            //         }, delay);
+            //     }, 300);
+            // });
+        </script>
+        <section class="white info">
+            <h2>Help us get to know you!</h2>
+            <p class="subhead">Take a moment to fill out your employee experience profile</p>
+            <div class="container">
+
+                <p>We'd love to learn more about you (favorite foods, hopes and dreams, your pets' names, the usual things) so we can make life
+                at Flywheel the best it could ever be! Fill out this quick survey to help the Employee Experience team help you.</p>
+                <a href="https://flywheel.typeform.com/to/PjsfM3" target="_blank" class="cta fly-green">Take the survey</a>
+            </div>
+
+        </section>
+
+        <section class="section-break photo-one" aria-hidden="true">
+        </section>
+
+        <section class="white info">
+            <h2>Get involved!</h2>
+            <p class="subhead">We've got two ways you can help make Fly Fest the flyest retreat in town!</p>
+            <div class="container">
+
+                <img id="micon" class="icon" src="flyfest/assets/Mic_icon-01.svg" alt="" aria-hidden="true">
+
+                <h3>Apply to be the flyest speaker!</h3>
+
+                <p>Would you like to teach others about what you love? If the answer is hell yeah (or even just maybe!), submit a talk for day
+                two of Fly Fest! Use this form to tell us how your talk would make an amazing addition to the lineup of breakout&nbsp;sessions.</p>
+
+                <a href="https://flywheel.typeform.com/to/hlOSjb" target="_blank" class="cta cta-secondary fly-blue" data-linkedIcon="micon">Submit a talk</a>
+
+            </div>
+            <div class="separator" aria-hidden="true"></div>
+            <div class="container">
+
+                <hr class="break">
+
+                <img id="bubble-icon" class="icon smaller" src="flyfest/assets/referral-talk-bubble_2x.svg" alt=""  aria-hidden="true">
+
+                <h3>Host an evening social event!</h3>
+
+                <p>Do you have an event idea you’ve been dying to make happen? Now’s your chance! On Tuesday and Wednesday, the evenings are
+                yours to create memories and laughs together. If you want to host something super fly, give us the deets!</p>
+
+                <a href="https://flywheel.typeform.com/to/pUBjNl" target="_blank" class="cta cta-secondary fly-blue" data-linkedIcon="bubble-icon">Host an event</a>
+
+            </div>
+
+        </section>
+    
+        <section class="section-break photo-two" aria-hidden="true">
+            <!-- Parallax divider -->
+        </section>
+
+        <section class="fly-blue-dark info">
+            <h2>Coming soon: So much more!</h2>
+            <p class="subhead reversed">We're just getting started!</p>
+            <div class="container narrow">
+                <p class="reversed">This site will be your homebase for all things Fly Fest, so we’d recommend bookmarking it right now! We have so much more
+                we can’t wait to roll out, so stay tuned!</p>
+            </div>
+        </section>
+
+        <section class="section-break" style="background: var(--blue-dark); height: 100px">
+        
+        </section>
+
+
+    </main>
+    
+    <script src="flyfest/dist/scripts-min.js"></script>
+
+</body>
+</html>

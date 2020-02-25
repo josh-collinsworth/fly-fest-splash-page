@@ -1,0 +1,7 @@
+@mixin flexy($justify: center, $alignItems: center, $alignContent: center, $wrap: wrap){
+    display: flex;
+    justify-content: $justify;
+    align-items: $alignItems;
+    align-content: $alignContent;
+    flex-wrap: $wrap;
+}
